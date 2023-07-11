@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Corriere dello sport</title>
+</head>
+<body>
+    <div id="container">
+        <div id="head"> <!-- testata con logo, se voglioamo fixed -->
+           <img class="head-image" src="https://images.irpa.eu/wp-content/uploads/2022/03/Corriere_dello_Sport_logo.svg_.png" alt="Logo Corriere dello sport" />
+           <div id="menu-head">
+            <ul class="menu-top">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="calendar.html">Serie A</a></li>
+                <li><a href="#">Formula 1</a></li>
+                <li><a href="#">Moto GP</a></li>
+                <li><a href="#">Ciclismo</a></li>
+            </ul>
+            <div>
+                <select name="menu" class="menu-select">
+                    <option selected=selectet value="menu" hidden>Menu</option>
+                    <option value="home">Home</option> <!-- utente legge Bari, valore che invia è ba -->
+                    <opntion value="serie-a">Serie-A</opntion>
+                    <option value="formula-1">Formula 1</option>
+                    <option value="moto-gp">Moto GP</option>
+                    <option value="ciclismo">Ciclismo</option>
+                </select>
+            </div>
+       </div>
+        </div>
+        <div id="main">
+            <div id="left">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="calendar.html">Serie A</a></li>
+                    <li><a href="#">Formula 1</a></li>
+                    <li><a href="#">Moto GP</a></li>
+                    <li><a href="#">Ciclismo</a></li>
+                </ul>
+            </div>
+            <div id="center"> <!-- articolo -->
+                <h2>Calendario e risultati Serie A</h2>
+                <h4>34 giornata</h4>
+                <table class="results">
+                    <tr>
+                        <td class="team">Milan</td>
+                        <td class="team">Lazio</td>
+                        <td class="team">Fine</td>
+                        <td class="team">2 - 0</td>
+                    </tr>
+                    <tr>
+                        <td class="team">Roma</td>
+                        <td class="team">Inter</td>
+                        <td class="team">Fine</td>
+                        <td class="team">0 - 2</td>
+                    </tr>
+                    <tr>
+                        <td class="team">Cremonese</td>
+                        <td class="team">Spezia</td>
+                        <td class="team">Fine</td>
+                        <td class="team">2 - 0</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="results">
+                    <tr>
+                        <td class="team">Atalanta</td>
+                        <td class="team">Juventus</td>
+                        <td class="team">Fine</td>
+                        <td class="team">0 - 2</td>
+                    </tr>
+                    <tr>
+                        <td class="team">Torino</td>
+                        <td class="team">Monza</td>
+                        <td class="team">Fine</td>
+                        <td class="team">1 - 1</td>
+                    </tr>
+                    <tr>
+                        <td class="team">Napoli</td>
+                        <td class="team">Fiorentina</td>
+                        <td class="team">Fine</td>
+                        <td class="team">1 - 0</td>
+                    </tr>
+                    <tr>
+                        <td class="team">Lecce</td>
+                        <td class="team">Verona</td>
+                        <td class="team">Fine</td>
+                        <td class="team">0 - 1</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="results">
+                    <tr>
+                        <td class="team">Empoli</td>
+                        <td class="team">Salernitana</td>
+                        <td class="team">Fine</td>
+                        <td class="team">2 - 1</td>
+                    </tr>
+                    <tr>
+                        <td class="team">Udinese</td>
+                        <td class="team">Sampdoria</td>
+                        <td class="team">Fine</td>
+                        <td class="team">2 - 0</td>
+                    </tr>
+                    <tr>
+                        <td class="team">Sassuolo</td>
+                        <td class="team">Bologna</td>
+                        <td class="team">Fine</td>
+                        <td class="team">1 - 1</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div id="right"> <!-- altri articoli -->
+                <ul class="right">
+                    <li>
+                        <img class="article-image" src="https://cdn.corrieredellosport.it/img/352/176/2023/05/09/133451437-8de31535-b3e7-47e5-a33a-a87171d0df68.jpg" alt="Roma-Bayer">
+                        <h3><a href="article.html">Roma-Bayer, designato l'arbitro anti-Mourinho: nessuno gli ha fischiato più rigori contro</a></h3>
+                    </li>
+                    <li>
+                        <img class="article-image" src="https://cdn.corrieredellosport.it/img/352/176/2023/05/09/105055936-d7c9847a-f167-4bb5-95fd-cbc5cde18c2a.jpg" alt="Mourinho">
+                        <h3><a href="#">Mourinho, svelati gli appunti segreti contro l'Inter: c'entra Matic</a></h3>
+                    </li>
+                    <li>
+                        <img class="article-image" src="https://cdn.corrieredellosport.it/images/2023/05/09/080652046-5790c35c-889b-47ee-8edc-7c916fa61a6d.jpg" alt="plusvalenze Juve">
+                        <h3><a href="#">Plusvalenze Juve, come cambia la classifica con il -9 o il -15</a></h3>
+                    </li>
+                </ul>
+            </div>
+            <!-- clear both-->
+        </div>
+        <div id="foot">
+            <div id="contacts"> <!-- contatti -->
+                Scrivi: <span class="space">&nbsp</span><a href="mailto: corrieredellosport@news.it">corrieredellosport@news.it</a>
+            </div>
+            <div id="calendar"> <!-- data -->
+                <table>
+                    <tr>
+                        <td>09</td>
+                        <td>Maggio</td>
+                        <td>2023</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
