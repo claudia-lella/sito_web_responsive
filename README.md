@@ -11,5 +11,3 @@ Questo progetto di gruppo è stato fatto da:
  - Carlotta Cima, 
  - Roberto Florio,
  - Saverio Mercante.
-
- Per visualizzare il lavoro finito, visita questa pagina: [https://partner-github.dxc.com/pages/claudia-lella-93/sito_web_responsive/](https://partner-github.dxc.com/pages/claudia-lella-93/sito_web_responsive/)
